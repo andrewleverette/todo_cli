@@ -6,9 +6,9 @@ A simple command-line application for managing a to-do list.
 
 ## Objectives
 
-1. **Explore Data Modeling in Clojure**: Learn to model real-world data (tasks) using Clojure’s immutable data structures, and practice designing efficient data representations.
+1. **Data Modeling in Clojure**: Learn to model real-world data (tasks) using Clojure’s immutable data structures, and practice designing efficient data representations.
 3. **Command-Line Interfaces**: Develop skills in building interactive command-line applications by learning to handle user inputs, process commands, and provide meaningful feedback.
-4. **Explore Persistent Storage**: Practice writing and reading from a file, enabling the application to retain tasks between sessions and enhancing user experience through data persistence.
+4. **Persistent Storage**: Practice writing and reading from files, enabling the application to retain tasks between sessions and enhancing user experience through data persistence.
 5. **Error Handling and Validation**: Strengthen error handling skills by validating user inputs and handling invalid operations gracefully, ensuring a robust user experience.
 
 ---
@@ -33,7 +33,11 @@ A simple command-line application for managing a to-do list.
 4. **Error Handling**:
 	- Handle cases where users try to remove or complete non-existent tasks.
 	- Handle invalid task IDs and empty task descriptions.
-
+5. **(Stretch Goal 2) Task Deadlines:
+	- Allow users to set and track task deadlines, providing reminders for overdue tasks.
+1. **(Stretch Goal 1) Project-Task Hierarchy**:
+	- Enable users to categorize tasks under different projects or groups for better organization.
+	
 ---
 
 ## Non-Functional Requirements
@@ -68,9 +72,7 @@ A simple command-line application for managing a to-do list.
 
 1. **Task Prioritization**:
 	- Add a priority field to tasks, allowing users to assign and sort tasks by priority (e.g., low, medium, high).
-2. **Task Deadlines**:
-	- Allow users to set and track deadlines for tasks, providing reminders for overdue tasks.
-3. **Task Categories**:
-	- Enable users to categorize tasks under different projects or groups for better organization.
-4. **Recurring Tasks**:
-	- Implement a way to create recurring tasks to automatically create new task instances based on a given schedule.
+2. **Recurring Tasks**:
+	- Implement automated task creation based on a schedule.
+3. **Batch Task Import**:
+	- Add functionality to import a file containing multiple tasks into the system.
