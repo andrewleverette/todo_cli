@@ -33,9 +33,9 @@ A simple command-line application for managing a to-do list.
 4. **Error Handling**:
 	- Handle cases where users try to remove or complete non-existent tasks.
 	- Handle invalid task IDs and empty task descriptions.
-5. **(Stretch Goal 2) Task Deadlines:
+5. **(Stretch Goal 1) Task Deadlines:
 	- Allow users to set and track task deadlines, providing reminders for overdue tasks.
-1. **(Stretch Goal 1) Project-Task Hierarchy**:
+6. **(Stretch Goal 2) Project-Task Hierarchy**:
 	- Enable users to categorize tasks under different projects or groups for better organization.
 	
 ---
@@ -76,3 +76,5 @@ A simple command-line application for managing a to-do list.
 	- Implement automated task creation based on a schedule.
 3. **Batch Task Import**:
 	- Add functionality to import a file containing multiple tasks into the system.
+4. **Terminal User Interface**
+	- Implement a terminal user interface to make working with tasks easier for the user
